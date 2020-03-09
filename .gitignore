@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs/InventoryManager/v15
+/.vs/InventoryManager/DesignTimeBuild
+/InventoryManager/InventoryManager/bin/Debug/netstandard2.0
+/InventoryManager/InventoryManager/obj
+/InventoryManager/InventoryManager.Android/bin/Debug
+/InventoryManager/InventoryManager.Android/obj
+/.vs
