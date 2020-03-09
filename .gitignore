@@ -9,3 +9,5 @@
 /InventoryManager/InventoryManager.Android/bin/Debug
 /InventoryManager/InventoryManager.Android/obj
 /.vs
+/InventoryManager/InventoryManager/bin/Release/netstandard2.0
+/InventoryManager/InventoryManager.Android/bin/Release

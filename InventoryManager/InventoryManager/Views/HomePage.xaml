@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InventoryManager.Views.HomePage">
+    <TabbedPage.Children>
+        <ContentPage Title="Scan">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Scan Mode"/>
+                    <Switch IsToggled="False" x:Name="modeSwitch"/>
+                    <Label Text="Count Mode"/>
+                </StackLayout>
+                <Entry x:Name="txtScannedCode"/>
+                <Button Text="Scan" Clicked="OnScan"/>
+            </StackLayout>
+        </ContentPage>
+        <ContentPage Title="View">
+            
+        </ContentPage>
+        <ContentPage Title="Configuration">
+            <StackLayout>
+                <Label Text="QR Code Format"/>
+                <Entry Placeholder="Scan or Enter QRCode Format here" x:Name="txtQRCodeFormat" Completed="OnQRCodeFormatScanCompleted"/>
+                <Button Text="Scan" Clicked="OnQRCodeFormatScan"/>
+                <Label Text="QR Code Seperator"/>
+                <Entry Placeholder="Enter QR Code Seperator" x:Name="txtQRCodeSeperator" Completed="OnQRCodeSeperatorCompleted"/>
+                <Label Text="Sort by field"/>
+                <Picker x:Name="orderByPicker" SelectedIndexChanged="OrderByPickerSelected" />
+            </StackLayout>
+        </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>

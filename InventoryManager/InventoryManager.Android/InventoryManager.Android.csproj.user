@@ -4,5 +4,6 @@
     <SelectedDevice>iphone_x</SelectedDevice>
     <DefaultDevice>iphone_x</DefaultDevice>
     <AndroidDesignerPreferredTheme>Theme.DeviceDefault.NoActionBar.Fullscreen</AndroidDesignerPreferredTheme>
+    <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
 </Project>
